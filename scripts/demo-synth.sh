@@ -11,9 +11,7 @@ echo ""
 if ! curl -s http://localhost:8000/status > /dev/null 2>&1; then
     echo "❌ Server not running!"
     echo ""
-    echo "Start the server first:"
-    echo "  ./run.sh"
-    echo "  # or with file watcher:"
+    echo "Start the server first:" 
     echo "  ./run-with-watcher.sh"
     echo ""
     exit 1
